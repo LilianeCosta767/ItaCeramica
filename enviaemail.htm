@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ItaCeramicas - Envia Email</title>
+</head>
+<body>
+    <p>Digite seu email:</p>
+    <input type="email" id="email">
+    <input type="button" value="ok" onclick="lerInput()">
+    <script>
+        function lerInput(){
+            var valor = document.getElementById('email').value;
+            console.log(valor);
+        }
+    </script>
+    <p><form href="mailto:{valor}">Send email</a></p>
+</body>
+</html>
