@@ -110,3 +110,9 @@ body {
 .tabela {
     margin: auto;
 }
+
+.txt_img {
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
